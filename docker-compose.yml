@@ -11,6 +11,7 @@ services:
       - mysql:dbserver
   mysql:
     image: "mysql/mysql-server:5.7"
+    container_name: database
     env_file: .env-mysql
     restart: always
     ports:

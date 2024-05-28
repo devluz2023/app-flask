@@ -1,0 +1,9 @@
+FLASK_APP=flasky.py
+FLASK_CONFIG=development
+DEV_DATABASE_URL=mysql+pymysql://fabio:fabio@localhost/flasky
+DATABASE_URL=mysql+pymysql://fabio:fabio@database/flasky
+SECRET_KEY=3128b4588e7f4305b5501025c13ceca5
+MAIL_USERNAME=fabio.jdluz@gmail.com
+MAIL_PASSWORD=123
+FLASK_ENV=development
+FLASK_DEBUG=1
